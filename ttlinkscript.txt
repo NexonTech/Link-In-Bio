@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mein Bio-Link</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #000000;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    .link {
+      display: block;
+      background-color: #000000;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .link:hover {
+      background-color: #333333;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://pin.it/HToBV54iy" alt="Profilbild" />
+    <h1>Nexon.Tach</h1>
+    <a class="link" href="https://www.tiktok.com/@nexon.tech" target="_blank">TikTok</a>
+    <a class="link" href="https://www.instagram.com/denislam_ffo_95" target="_blank">Instagram</a>
+    <a class="link" href="https://deine-webseite.de" target="_blank">Meine Webseite</a>
+    <a class="link" href="nexon.tech1sponsor@gmail.com">Kontakt</a>
+  </div>
+</body>
+</html>
